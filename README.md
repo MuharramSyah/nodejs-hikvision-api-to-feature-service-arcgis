@@ -53,4 +53,4 @@ aktif di `localhost:3000`, `PORT` dapat dikonfigurasi pada environment variable.
 ```
 ## Authors
 
-<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30" height="30">[@Muharram Syah](https://linkedin.com/in/muharram_syah)
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="10" height="10"> [Muharram Syah](https://linkedin.com/in/muharram_syah)
