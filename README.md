@@ -4,12 +4,6 @@
 API untuk menghubah data JSON menjadi sebuah feature service menggunakan `NodeJS`, `Express`, `Body Parser`
 
 
-
-
-
-![Logo](https://www.jababeka.com/wp-content/uploads/2018/11/IMG-6651.png)
-
-
 ## 2 Ada jenis data yang diprocess
 
 #### Object Detection
