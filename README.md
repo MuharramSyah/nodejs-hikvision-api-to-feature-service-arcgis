@@ -1,20 +1,56 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Hikvision to Feature Service
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+API untuk menghubah data JSON menjadi sebuah feature service menggunakan `NodeJS`, `Express`, `Body Parser`
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+
+
+
+![Logo](https://www.jababeka.com/wp-content/uploads/2018/11/IMG-6651.png)
+
+
+## 2 Ada jenis data yang diprocess
+
+#### Object Detection
+- Deteksi Jenis Kendaraan (Vehicle Information)
+- Deteksi kearamaian (Crowd Detection)
+- Deteksi Gerakan (Motion Detection, GeoFencing)
+
+#### Semantic Segmentation
+- Deteksi Pergerakan Kendaraan (Vehicle tracking - GeoFencing)
+- Deteksi tingkah laku - Object mencurigakan (Behaviour Detection)
+- Deteksi level ketinggian air (khusus untuk IoT tidak di integrasikan di Repo Ini)
+
+
+## Installation
+
+Install package with npm
+
+```bash
+  npm install
+```
+    
+## Run Locally
+
+#### Running in Development
+```bash
+  npm run dev
+```
+
+#### Running in Production
+```bash
+  npm start
+```
+aktif di `localhost:3000`, `PORT` dapat dikonfigurasi pada environment variable.
+
+#### Running in Test
+```bash
+  npm test
+
+  # Watch repo
+  npm run test:watch
+```
+## Authors
+
+<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30" height="30">[@Muharram Syah](https://linkedin.com/in/muharram_syah)
