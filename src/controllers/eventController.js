@@ -1,4 +1,4 @@
-const eventType = require('../utils/eventType');
+const eventType = require('../helper/eventType');
 
 module.exports = {
     /**
